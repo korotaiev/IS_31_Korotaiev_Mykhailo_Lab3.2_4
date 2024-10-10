@@ -1,0 +1,109 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 2vw;
+    text-align: end;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 5px #888;
+    position: relative;
+    border: 2px solid black;
+  }
+  
+  .block {
+    border: 2px solid #000;
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  .block1 {
+    background-color: orange;
+    height: 10vw;
+    padding-right: 2%;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-right: 2%;
+  }
+  
+  .block2 {
+    background-color: blue;
+    height: 100vw;
+    width: 25%;
+    float: left;
+    color: white;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -5%;
+  }
+  
+  .block3 {
+    background-color: white;
+    width: 33%;
+    float: left;
+    margin-left: 4%;
+    box-shadow: 3px 3px 5px #888;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .block4 {
+    background-color: blue;
+    width: 27%;
+    float: left;
+    margin-left: 4%;
+    color: white;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .block3,
+  .block4 {
+    height: auto;
+    min-height: 80vw;
+    margin-top: 10%;
+  }
+  
+  .block5 {
+    background-color: orange;
+    height: 10vw;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2%;
+    font-weight: bold;
+    border: 1px solid black;
+  }
+  
+  .header {
+    width: 40%;
+    height: 5vw;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 0;
+    display: flex;
+    margin-left: 2vw;
+  }
+  
+  .red-bar {
+    background-color: red;
+    height: 6vw;
+    width: 64%;
+    margin: 5% auto;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-right: 6%;
+  }
+  
